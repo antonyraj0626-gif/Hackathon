@@ -1,0 +1,2 @@
+# cognifix
+offline terminal development
