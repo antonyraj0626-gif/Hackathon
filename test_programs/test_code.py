@@ -1,8 +1,18 @@
-import numpy
+def square(x):
+    return x * x
 
-def greet(name):
-    print("Hello", name)
 
-greet("Cognifix")
+def cube(x):
+    return x * x * x
 
-print("Hello from Cognifix")
+values = [1, 2, 3, 4, 5]
+results = []
+
+for v in values:
+    results.append(square(v))
+print("Squares:", results)
+
+for v in values:
+    results.append(cube(v))
+
+print("Cubes:", results)
