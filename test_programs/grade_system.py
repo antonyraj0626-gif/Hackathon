@@ -9,7 +9,7 @@ def calculate_average(data):
 
     total = 0
 
-    for score in data.values()
+    for score in data.values():
         total += score
 
     avg = total / len(data)
@@ -17,14 +17,14 @@ def calculate_average(data):
     return avg
 
 
-def find_top_student(data)
+def find_top_student(data):
 
     top_name = ""
     top_score = 0
 
     for name, score in data.items():
 
-        if score > top_score
+        if score > top_score:
             top_score = score
             top_name = name
 
